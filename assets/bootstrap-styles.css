@@ -1,0 +1,368 @@
+/* Home Page */
+
+.header .header__wrapper {
+  font-weight: var(--font-weight-extra);
+  color: var(--color-font-one);
+}
+
+.header .header__wrapper .navbar__left ul li,
+.header .header__wrapper .navbar__right ul li {
+  margin-right: 1rem;
+}
+
+.header .header__wrapper .navbar__left ul li a {
+  display: inline-block;
+  pointer-events: auto;
+}
+
+.header .header__wrapper .navbar__left .button__dropdown {
+  letter-spacing: 1rem;
+  font-size: 1.5rem;
+}
+
+.header .header__wrapper .navbar__center {
+  z-index: -1;
+}
+
+.header .header__wrapper .navbar__center .logo img {
+  object-fit: cover;
+  width: 100px;
+}
+
+.main .feature__section {
+  color: var(--color-font-one);
+}
+
+.main .loop__section {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.main .loop__section .item__title {
+  font-size: 3.5rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  color: var(--color-font-one);
+  font-weight: var(--font-weight-extra);
+  letter-spacing: 2px;
+}
+@media (max-width: 567px) {
+  .main .loop__section .item__title {
+    font-size: 2rem;
+  }
+}
+.main .loop__section .item__excerpt {
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-normal);
+  margin-bottom: 1rem;
+}
+
+.main .loop__section .item__meta .profile__image {
+  width: auto;
+}
+
+.main .loop__section .blog__item {
+  margin-bottom: 1rem;
+}
+
+.main .loop__section .item__wrapper {
+  border-radius: var(--border-blog-radius);
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.main .loop__section .main__item .image__wrapper {
+  min-height: 24vh;
+  border-radius: 0;
+}
+.main .loop__section .main__item .item__content {
+  height: 100%;
+}
+
+.main .loop__section .main__item .item__content h2 {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-extra);
+  margin: 0.5rem 0 0.25rem;
+}
+
+.main .loop__section .main__item .item__content p {
+  font-size: 1rem;
+  font-weight: var(--font-weight-normal);
+}
+
+.main .loop__section .button-blue {
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-extra);
+}
+
+.main .subcribe__section {
+  margin-top: 6rem;
+}
+
+.main .subcribe__section h3 {
+  font-size: 4rem;
+  padding: 2rem 0;
+  font-weight: var(--font-weight-extra);
+  color: var(--color-font-one);
+}
+
+.main .subcribe__section form {
+  padding: 1rem;
+  border-radius: 100px;
+  background-color: var(--color-grey);
+}
+
+.main .subcribe__section .button-blue {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-extra);
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-white) !important;
+}
+
+.main .subcribe__section input {
+  font-size: 1.25rem;
+  padding: 0 1.25rem;
+  word-break: normal;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.footer .footer__wrap {
+  position: relative;
+  display: flex;
+  padding-top: 5rem;
+}
+
+.footer .footer__wrap::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 1px;
+  content: "";
+  background-color: var(--color-transparent);
+}
+
+.footer .footer__wrap .footer__data .footer__logo .logo {
+  width: 100px;
+}
+
+.footer .footer__wrap .footer__data .footer__logo .logo img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.footer .footer__wrap .footer__data .footer__description {
+  font-size: 1.25rem;
+}
+
+.footer .footer__wrap .footer__data .footer__icons .icon {
+  font-size: 2rem;
+  margin-right: 2rem;
+  transition: all 0.2s ease;
+}
+
+.footer .footer__wrap .footer__data .footer__icons .icon:last-child {
+  margin: 0;
+}
+
+.footer .footer__wrap .footer__data .footer__icons .icon:hover {
+  transition: all 0.2s ease;
+  color: var(--button-blue-color);
+}
+
+.footer .footer__wrap .footer__nav small {
+  font-size: 0.75rem;
+  display: block;
+  margin: 0.75rem 0 2rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-normal);
+}
+
+.footer .footer__wrap .footer__nav .nav__column li {
+  margin-bottom: 1.5rem;
+}
+
+/* Signin Page */
+
+.custom__wrapper .custom__image {
+  background: no-repeat center center/cover;
+  width: 38%;
+}
+
+.custom__wrapper .custom__image.signin {
+  background-image: url(./images/bg1.jpeg);
+}
+.custom__wrapper .custom__image.signup {
+  background-image: url(./images/bg2.jpeg);
+}
+
+.custom__wrapper .custom__container {
+  width: 62%;
+}
+
+.custom__wrapper .custom__container .custom__logo {
+  margin: 10vh auto;
+}
+
+.custom__wrapper .custom__container .custom__logo img {
+  width: 100px;
+}
+.custom__wrapper .custom__container .custom__content {
+  flex-grow: 1;
+}
+
+.custom__wrapper .custom__container .custom__content form {
+  max-width: 470px;
+  margin: 0 auto;
+}
+
+.custom__content h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: var(--font-weight-extra);
+  color: var(--color-font-one);
+  margin-bottom: 2rem;
+}
+
+.custom__content input {
+  font-size: 20px;
+  padding: 1.5rem 0;
+  margin: 1rem 0 3rem;
+  transition: background-color 0.15s ease;
+  text-align: center;
+  word-break: break-all;
+  width: 80%;
+  border-radius: 100px;
+  background-color: var(--color-grey);
+}
+
+.custom__content button {
+  padding: 1.5rem 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+
+/* Membership Page */
+.membership__section {
+  padding: 10vh 5%;
+  background: url(./images/bg3.jpeg) no-repeat center;
+  background-size: cover;
+  border-radius: calc(var(--border-blog-radius) * 2);
+}
+
+.membership__section .archive__wrap .archive__container {
+  padding: 1.5rem 2.5rem;
+  max-width: 350px;
+  background-color: var(--color-white);
+  border-radius: var(--border-blog-radius);
+}
+.archive__title {
+  font-size: 2.5rem;
+  font-weight: var(--font-weight-extra);
+  color: var(--color-font-one);
+  word-break: break-all;
+  margin-bottom: 1.5rem;
+}
+.archive__description {
+  font-weight: var(--font-weight-normal);
+}
+.membership__heading {
+  font-size: 1.5rem;
+  color: var(--color-font-one);
+  font-weight: var(--font-weight-normal);
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+.membership__cards .membership__card {
+  padding: 1rem;
+}
+.membership__cards .membership__card .card__wrapper {
+  background: var(--color-grey);
+  height: 100%;
+  border-radius: var(--border-blog-radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.membership__cards .membership__card .card__wrapper h2 {
+  background: var(--button-blue-color);
+  padding: 0.75rem 1rem;
+  color: var(--color-white);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-normal);
+  text-align: center;
+}
+.membership__cards .membership__card .card__wrapper h3 {
+  font-size: 7rem;
+  margin: 2rem 0;
+  text-align: center;
+  font-weight: var(--font-weight-extra);
+  color: var(--color-font-one);
+  text-indent: -20px;
+}
+.membership__cards .membership__card .card__wrapper sup {
+  font-size: 50%;
+  vertical-align: top;
+}
+
+.membership__cards .membership__card .card__wrapper ul li {
+  text-align: center;
+  margin: 1rem 0;
+}
+.membership__cards .membership__card .card__wrapper .card__action {
+  margin: 2rem 0 3rem;
+  text-align: center;
+}
+.membership__cards .membership__card .card__wrapper .card__action button {
+  padding: 1.5rem 2rem;
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-extra);
+}
+.question {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0 5rem;
+}
+
+/* Details */
+.nav__post .nav__wrap {
+  padding: 1.5rem;
+}
+
+.nav__post .nav {
+  display: inline-block;
+  padding: 1.5rem;
+  border-radius: var(--border-blog-radius);
+}
+
+.nav__post .nav.nav__older {
+  flex-direction: row-reverse;
+}
+
+.nav__post .nav__content {
+  padding: 1rem;
+}
+.nav__post .nav__older .nav__content {
+  text-align: end;
+}
+
+.nav__post .nav__content small {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.nav__post .nav__content h3 {
+  font-size: 1.5rem;
+  display: inline-block;
+}

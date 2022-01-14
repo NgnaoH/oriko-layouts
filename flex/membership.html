@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/reset.css" />
+    <link rel="stylesheet" href="../assets/global.css" />
+    <link rel="stylesheet" href="../assets/flex-styles.css" />
+    <link rel="stylesheet" href="../assets/variable.css" />
+    <link rel="stylesheet" href="../assets/flex-responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="global__content">
+      <header class="header container">
+        <div class="header__wrapper">
+          <nav class="navbar__left d-lg-block">
+            <ul>
+              <li>
+                <a href="../flex/home.html" class="text__hover"
+                  >Hom<span class="effect">e</span></a
+                >
+              </li>
+              <li>
+                <a href="../flex/membership.html" class="text__hover"
+                  >Membershi<span class="effect">p</span></a
+                >
+              </li>
+              <li>
+                <a href="../flex/style-guide.html" class="text__hover"
+                  >Style Guid<span class="effect">e</span></a
+                >
+              </li>
+              <li class="button__dropdown">
+                <input
+                  class="d-none"
+                  id="menu-child"
+                  name="menu-child"
+                  type="checkbox"
+                />
+                <label for="menu-child" class="header__bar--wrapper">
+                  <i class="fas fa-ellipsis-h"> </i>
+                </label>
+                <nav id="menu__child">
+                  <ol>
+                    <li>
+                      <a href="#" class="text__hover"
+                        >Author<span class="effect">s</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text__hover"
+                        >Tag<span class="effect">s</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text__hover"
+                        >Subscrib<span class="effect">e</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text__hover"
+                        >Contac<span class="effect">t</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text__hover"
+                        >Get them<span class="effect">e</span></a
+                      >
+                    </li>
+                  </ol>
+                </nav>
+              </li>
+            </ul>
+          </nav>
+          <div class="navbar__center">
+            <a href="../flex/home.html" class="logo">
+              <img src="../assets/images/okiro.svg" alt="logo" />
+            </a>
+          </div>
+          <nav class="navbar__right">
+            <ul>
+              <li class="search">
+                <label for="model-search" class="button__search d-lg-block">
+                  <i class="fas fa-search"></i>
+                </label>
+                <input class="d-none" id="model-search" type="checkbox" />
+                <div id="model__search">
+                  <label class="placeholder" for="model-search"></label>
+                  <label for="model-search" class="close"
+                    ><i class="fas fa-times"></i
+                  ></label>
+                  <div class="search__box">
+                    <form class="search__form">
+                      <input type="text" placeholder="Type your keywords" />
+                      <div class="search__meta">
+                        <p>Please enter at least 3 characters</p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </li>
+              <li class="sign__in d-lg-block">
+                <a href="../flex/sign-in.html" class="text__hover"
+                  >Sign i<span class="effect">n</span></a
+                >
+              </li>
+              <li class="sign__up d-lg-block">
+                <a class="button-blue" href="../flex/sign-up.html">Sign up</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu__mobile--wrapper d-lg-none">
+            <input
+              class="d-none"
+              id="menu-mobile"
+              name="menu-mobile"
+              type="checkbox"
+            />
+            <label for="menu-mobile" class="header__bar--wrapper"
+              ><span class="header__bar"></span
+            ></label>
+            <nav id="model__menu--mobile" class="navbar__mobile">
+              <ul>
+                <li>
+                  <a href="../flex/home.html" class="text__hover"
+                    >Hom<span class="effect">e</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../flex/membership.html" class="text__hover"
+                    >Membershi<span class="effect">p</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../flex/style-guide.html" class="text__hover"
+                    >Style Guid<span class="effect">e</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../flex/features.html" class="text__hover"
+                    >Feature<span class="effect">s</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../flex/authors.html" class="text__hover"
+                    >Author<span class="effect">s</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../flex/tags.html" class="text__hover"
+                    >Tag<span class="effect">s</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../flex/subscribe.html" class="text__hover"
+                    >Subscrib<span class="effect">e</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../flex/contact.html" class="text__hover"
+                    >Contac<span class="effect">t</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text__hover"
+                    >Get them<span class="effect">e</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../flex/sign-in.html" class="text__hover"
+                    >Sign i<span class="effect">n</span></a
+                  >
+                </li>
+                <li>
+                  <a class="button-blue" href="../flex/sign-up.html">Sign up</a>
+                </li>
+                <li class="search">
+                  <label for="model-search">
+                    Search
+                    <i class="fas fa-search"></i>
+                  </label>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <section class="membership__section">
+            <div class="archive__wrap">
+              <div class="archive__container">
+                <div class="archive__content">
+                  <h1 class="archive__title">Membership</h1>
+                  <p class="archive__description">
+                    Unlock full access to Okiro and see the entire library of
+                    subscribers-only content & updates
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <small class="membership__heading">Choose your plan</small>
+          <section class="membership__cards">
+            <div class="membership__card">
+              <div class="card__wrapper">
+                <div class="card__content">
+                  <h2>Free</h2>
+                  <h3><sup>$</sup>0</h3>
+                  <div>
+                    <ul>
+                      <li>Full access to posts for subscribers</li>
+                      <li>Weekly email newsletter</li>
+                      <li>No advertising</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__action">
+                  <button class="button-blue">Subscribe now</button>
+                </div>
+              </div>
+            </div>
+            <div class="membership__card">
+              <div class="card__wrapper">
+                <div class="card__content">
+                  <h2>Monthly</h2>
+                  <h3><sup>$</sup>7</h3>
+                  <div>
+                    <ul>
+                      <li>Full access to all premium posts</li>
+                      <li>Weekly email newsletter</li>
+                      <li>Support independent publishing</li>
+                      <li>Simple, secure card payment</li>
+                      <li>No advertising</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__action">
+                  <button class="button-blue">Subscribe now</button>
+                </div>
+              </div>
+            </div>
+            <div class="membership__card">
+              <div class="card__wrapper">
+                <div class="card__content">
+                  <h2>Yearly</h2>
+                  <h3><sup>$</sup>29</h3>
+                  <div>
+                    <ul>
+                      <li>Full access to all premium posts</li>
+                      <li>Weekly email newsletter</li>
+                      <li>Support independent publishing</li>
+                      <li>Simple, secure card payment</li>
+                      <li>One easy payment instead of 12!</li>
+                      <li>No advertising</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__action">
+                  <button class="button-blue">Subscribe now</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <small class="question">
+            Already have an account? <a href="../flex/sign-in.html">Sign in</a>
+          </small>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrap">
+            <div class="footer__data">
+              <div class="footer__logo">
+                <a href="../flex/home.html" class="logo">
+                  <img src="../assets/images/okiro.svg" alt="logo" />
+                </a>
+              </div>
+              <p class="footer__description">
+                A minimal, functional theme for running a paid-membership
+                publication on Ghost.
+              </p>
+              <div class="footer__icons">
+                <a href="#" class="icon"><i class="fab fa-facebook"></i></a
+                ><a href="#" class="icon"><i class="fab fa-twitter"></i></a
+                ><a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a
+                ><a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="footer__nav">
+              <div class="nav__wrapper">
+                <div class="nav__column--wrapper">
+                  <small>About</small>
+                  <nav class="nav__column">
+                    <ul>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Feature<span class="effect">s</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Style Guid<span class="effect">e</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Contac<span class="effect">t</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Get Them<span class="effect">e</span></a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="nav__column--wrapper">
+                  <small>Features</small>
+                  <nav class="nav__column">
+                    <ul>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Accoun<span class="effect">t</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Membershi<span class="effect">p</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Sign i<span class="effect">n</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Sign i<span class="effect">n</span></a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="nav__column--wrapper">
+                  <small>Support</small>
+                  <nav class="nav__column">
+                    <ul>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Author<span class="effect">s</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Tag<span class="effect">s</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Dark Versio<span class="effect">n</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >40<span class="effect">4</span></a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__copyright">
+            Okiro © 2021. All Right Reserved. Published with Ghost.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/reset.css" />
+    <link rel="stylesheet" href="../assets/global.css" />
+    <link rel="stylesheet" href="../assets/grid-styles.css" />
+    <link rel="stylesheet" href="../assets/variable.css" />
+    <link rel="stylesheet" href="../assets/grid-responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="global__content">
+      <header class="header container">
+        <div class="header__wrapper">
+          <nav class="navbar__left d-lg-block">
+            <ul>
+              <li>
+                <a href="../grid/home.html" class="text__hover"
+                  >Hom<span class="effect">e</span></a
+                >
+              </li>
+              <li>
+                <a href="../grid/membership.html" class="text__hover"
+                  >Membershi<span class="effect">p</span></a
+                >
+              </li>
+              <li>
+                <a href="../grid/style-guide.html" class="text__hover"
+                  >Style Guid<span class="effect">e</span></a
+                >
+              </li>
+              <li class="button__dropdown">
+                <input
+                  class="d-none"
+                  id="menu-child"
+                  name="menu-child"
+                  type="checkbox"
+                />
+                <label for="menu-child" class="header__bar--wrapper">
+                  <i class="fas fa-ellipsis-h"> </i>
+                </label>
+                <nav id="menu__child">
+                  <ol>
+                    <li>
+                      <a href="#" class="text__hover"
+                        >Author<span class="effect">s</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text__hover"
+                        >Tag<span class="effect">s</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text__hover"
+                        >Subscrib<span class="effect">e</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text__hover"
+                        >Contac<span class="effect">t</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text__hover"
+                        >Get them<span class="effect">e</span></a
+                      >
+                    </li>
+                  </ol>
+                </nav>
+              </li>
+
+            </ul>
+          </nav>
+          <div class="navbar__center">
+            <a href="../grid/home.html" class="logo">
+              <img src="../assets/images/okiro.svg" alt="logo" />
+            </a>
+          </div>
+          <nav class="navbar__right">
+            <ul>
+              <li class="search">
+                <label for="model-search" class="button__search d-lg-block">
+                  <i class="fas fa-search"></i>
+                </label>
+                <input class="d-none" id="model-search" type="checkbox" />
+                <div id="model__search">
+                  <label class="placeholder" for="model-search"></label>
+                  <label for="model-search" class="close"
+                    ><i class="fas fa-times"></i
+                  ></label>
+                  <div class="search__box">
+                    <form class="search__form">
+                      <input type="text" placeholder="Type your keywords" />
+                      <div class="search__meta">
+                        <p>Please enter at least 3 characters</p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </li>
+              <li class="sign__in d-lg-block">
+                <a href="../grid/sign-in.html" class="text__hover"
+                  >Sign i<span class="effect">n</span></a
+                >
+              </li>
+              <li class="sign__up d-lg-block">
+                <a class="button-blue" href="../grid/sign-up.html">Sign up</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu__mobile--wrapper d-lg-none">
+            <input
+              class="d-none"
+              id="menu-mobile"
+              name="menu-mobile"
+              type="checkbox"
+            />
+            <label for="menu-mobile" class="header__bar--wrapper"
+              ><span class="header__bar"></span
+            ></label>
+            <nav id="model__menu--mobile" class="navbar__mobile">
+              <ul>
+                <li>
+                  <a href="../grid/home.html" class="text__hover"
+                    >Hom<span class="effect">e</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../grid/membership.html" class="text__hover"
+                    >Membershi<span class="effect">p</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../grid/style-guide.html" class="text__hover"
+                    >Style Guid<span class="effect">e</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../grid/features.html" class="text__hover"
+                    >Feature<span class="effect">s</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../grid/authors.html" class="text__hover"
+                    >Author<span class="effect">s</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../grid/tags.html" class="text__hover"
+                    >Tag<span class="effect">s</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../grid/subscribe.html" class="text__hover"
+                    >Subscrib<span class="effect">e</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../grid/contact.html" class="text__hover"
+                    >Contac<span class="effect">t</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text__hover"
+                    >Get them<span class="effect">e</span></a
+                  >
+                </li>
+                <li>
+                  <a href="../grid/sign-in.html" class="text__hover"
+                    >Sign i<span class="effect">n</span></a
+                  >
+                </li>
+                <li>
+                  <a class="button-blue" href="../grid/sign-up.html">Sign up</a>
+                </li>
+                <li class="search">
+                  <label for="model-search">
+                    Search
+                    <i class="fas fa-search"></i>
+                  </label>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main container">
+        <section class="loop__section fadeInUp" style="margin-top: 2rem">
+          <article class="latest__post" style="margin-bottom: 2rem !important">
+            <div class="image">
+              <div class="image__wrapper ratio__1-by-1">
+                <img src="../assets/images/5.jpeg" alt="image" />
+              </div>
+            </div>
+            <div class="content__wrapper">
+              <div class="item__tags">
+                <a href="#">creative</a>
+              </div>
+              <h1 class="item__title text__hover">
+                I work best when my space is filled with inspiratio<span
+                  class="effect"
+                  style="width: 16px; height: 16px"
+                  >n</span
+                >
+              </h1>
+              <p class="item__excerpt d-lg-none d-xl-block">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat ut
+                facilisis rutrum donec tristique mauris est ac nunc. Eget nec,
+                lorem mi libero accumsan....
+              </p>
+              <div class="item__meta">
+                <div class="profile__image">
+                  <a href="#" class="authors__image">
+                    <img src="../assets/images/hooman2.jpg" alt="" />
+                  </a>
+                  <a href="#" class="authors__image">
+                    <img src="../assets/images/hooman1.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="authors">
+                  <a href="">Victoria West, </a>
+                  <a href="">Lauren Langford</a>
+                  <p class="item__time">
+                    <time datetime="2020-09-03">September 30, 2020</time>
+                    ∙ 3 minutes read
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <div class="post__content">
+            <div class="post__teaser">
+              <p>
+                Quasi vero aut concedatur in omnibus stultis aeque magna esse
+                vitia, et eadem inbecillitate et inconstantia L. Levatio igitur
+                vitiorum magna fit in iis, qui habent ad virtutem progressionis
+                aliquantum. Tertium autem omnibus aut maximis rebus iis, quae
+                secundum naturam sint, fruentem vivere. Materiam vero rerum et
+                copiam apud hos exilem, apud illos uberrimam reperiemus. Atque
+                his de rebus et splendida est eorum et illustris oratio.
+              </p>
+              <blockquote>
+                Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres.
+                Non autem hoc igitur ne illud quidem. Age, inquies, ista parva
+                sunt.
+              </blockquote>
+              <p>
+                Quos nisi redarguimus, omnis virtus, omne decus, omnis vera laus
+                deserenda est. Sed eum qui audiebant, quoad poterant,
+                defendebant sententiam suam. Fatebuntur Stoici haec omnia dicta
+                esse praeclare, neque eam causam Zenoni desciscendi fuisse. Quis
+                est autem dignus nomine hominis, qui unum diem totum velit esse
+                in genere isto voluptatis. Ad eos igitur convert te, quaeso. Duo
+                Reges: constructio interrete. An est aliquid per se ipsum
+                flagitiosum, etiamsi nulla comitetur infamia. Quid ad utilitatem
+                tantae pecuniae? Duo enim genera quae erant, fecit tria. Et quod
+                est munus, quod opus sapientiae? Sed in rebus apertissimis
+                nimium longi sumus.
+              </p>
+            </div>
+            <div class="post__lock sand">
+              <h2>This post is for subscribers only</h2>
+              <p>
+                Sign up now to read the post and get access to the full library
+                of posts for subscribers only.
+              </p>
+              <a class="button-blue signup" href="../grid/sign-up.html">Sign up now</a>
+              <small class="question"
+                >Already have an account?
+                <a href="../grid/sign-in.html">Sign in</a></small
+              >
+            </div>
+          </div>
+        </section>
+        <section class="nav__post container">
+          <div class="nav__wrap">
+            <a href="#" class="nav__newer nav sand blog__item-hover">
+              <div class="image">
+                <div class="image__wrapper ratio__1-by-1">
+                  <img src="../assets/images/8.jpeg" alt="image" />
+                </div>
+              </div>
+              <div class="nav__content">
+                <small>Newer post</small>
+                <h3>Being unique is better than being perfect</h3>
+              </div>
+            </a>
+          </div>
+          <div class="nav__wrap">
+            <a href="#" class="nav__older nav aqua blog__item-hover">
+              <div class="image">
+                <div class="image__wrapper ratio__1-by-1">
+                  <img src="../assets/images/4.jpeg" alt="image" />
+                </div>
+              </div>
+              <div class="nav__content">
+                <small>Older post</small>
+                <h3>Creating deluxe drink is like playing a sport</h3>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section class="story__section">
+          <h2 class="title__section">See free posts</h2>
+          <article class="blog__item--sm blog__item-hover">
+            <div class="item__wrapper pool">
+              <a href="../grid/details.html" class="global__link"> </a>
+              <div class="image__wrapper ratio__1-by-1">
+                <img src="../assets/images/1.jpeg" alt="image" />
+              </div>
+              <div class="item__content">
+                <h3>Don't be afraid</h3>
+                <p class="d-none d-md-block">Megan Anderson, Lauren Langford</p>
+              </div>
+            </div>
+          </article>
+          <article class="blog__item--sm blog__item-hover">
+            <div class="item__wrapper peach">
+              <a href="../grid/details.html" class="global__link"> </a>
+              <div class="image__wrapper ratio__1-by-1">
+                <img src="../assets/images/9.jpeg" alt="image" />
+              </div>
+              <div class="item__content">
+                <h3>You have to fight to reach your dream</h3>
+                <p class="d-none d-md-block">Megan Anderson, Lauren Langford</p>
+              </div>
+            </div>
+          </article>
+          <article class="blog__item--sm blog__item-hover">
+            <div class="item__wrapper sand">
+              <a href="../grid/details.html" class="global__link"> </a>
+              <div class="image__wrapper ratio__1-by-1">
+                <img src="../assets/images/3.jpeg" alt="image" />
+              </div>
+              <div class="item__content">
+                <h3>I always loved aesthetics</h3>
+                <p class="d-none d-md-block">Megan Anderson, Lauren Langford</p>
+              </div>
+            </div>
+          </article>
+          <article class="blog__item--sm blog__item-hover">
+            <div class="item__wrapper aqua">
+              <a href="../grid/details.html" class="global__link"> </a>
+              <div class="image__wrapper ratio__1-by-1">
+                <img src="../assets/images/4.jpeg" alt="image" />
+              </div>
+              <div class="item__content">
+                <h3>Creating deluxe drink is like playing a sport</h3>
+                <p class="d-none d-md-block">Megan Anderson, Lauren Langford</p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="subcribe__section">
+          <h3>Subscribe to new posts</h3>
+          <div class="form__wrapper">
+            <form class="">
+              <div class="email__form">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your email address"
+                />
+                <button class="button-blue">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrap">
+            <div class="footer__data">
+              <div class="footer__logo">
+                <a href="../grid/home.html" class="logo">
+                  <img src="../assets/images/okiro.svg" alt="logo" />
+                </a>
+              </div>
+              <p class="footer__description">
+                A minimal, functional theme for running a paid-membership
+                publication on Ghost.
+              </p>
+              <div class="footer__icons">
+                <a href="#" class="icon"><i class="fab fa-facebook"></i></a
+                ><a href="#" class="icon"><i class="fab fa-twitter"></i></a
+                ><a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a
+                ><a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="footer__nav">
+              <div class="nav__wrapper">
+                <div class="nav__column--wrapper">
+                  <small>About</small>
+                  <nav class="nav__column">
+                    <ul>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Feature<span class="effect">s</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Style Guid<span class="effect">e</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Contac<span class="effect">t</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Get Them<span class="effect">e</span></a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="nav__column--wrapper">
+                  <small>Features</small>
+                  <nav class="nav__column">
+                    <ul>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Accoun<span class="effect">t</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Membershi<span class="effect">p</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Sign i<span class="effect">n</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Sign i<span class="effect">n</span></a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="nav__column--wrapper">
+                  <small>Support</small>
+                  <nav class="nav__column">
+                    <ul>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Author<span class="effect">s</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Tag<span class="effect">s</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >Dark Versio<span class="effect">n</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" class="text__hover"
+                          >40<span class="effect">4</span></a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__copyright">
+            Okiro © 2021. All Right Reserved. Published with Ghost.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
